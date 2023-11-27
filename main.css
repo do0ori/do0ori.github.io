@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    font-family: 'Gill Sans', sans-serif;
+    font-size: 1rem;
+    background-color: #98AFC7;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 2rem;
+    line-height: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 15px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: white;
+    width: 800px;
+    height: 970px;
+    position: relative;
+}
+
+.info_row {
+    display: flex;
+    flex-direction: row;
+}
+
+.gap_2rem {
+    gap: 2rem;
+}
+
+.gap_3rem {
+    gap: 3rem;
+}
+
+.info_col {
+    display: flex;
+    flex-direction: column;
+}
+
+.language {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    gap: 0.5rem;
+    margin-top: 10px;
+}
+
+.hr {
+    display: block;
+    border-top: solid 1px gray;
+    width: 43rem;
+    height: 1.5rem;
+}
+
+.blog {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
+
+.profile_img {
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+}
+
+.lang_tag {
+    background-color: rgb(234, 242, 242);
+    border-radius: 0.5rem;
+    white-space: nowrap;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+    padding: 2px 0.5rem 2px 0.5rem;
+}
+
+.desc {
+    position: relative;
+    width: 30rem;
+    padding: 1rem;
+}
+
+.content_gap {
+    margin-top: 3rem;
+}
+
+.more_btn {
+    font-size: 1rem;
+    position: absolute;
+    top: 80%;
+    left: 80%;
+	text-align: center;
+	color: white;
+    box-shadow:0px 4px 0px #6D7B8D;
+    background-color: #98AFC7;
+    border-radius:8px;
+    border: 0;
+}
+
+.more_btn:hover {
+    background-color: rgb(161, 161, 161);
+}
+
+.more_btn:active {
+    box-shadow: none;
+}
+
+#note {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: small;
+    color: rgb(181, 181, 181);
+}
